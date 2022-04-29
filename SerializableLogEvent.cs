@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Log4Net
 {
+	[Serializable]
     internal class SerializableLogEvent
     {
         private LoggingEvent loggingEvent;
